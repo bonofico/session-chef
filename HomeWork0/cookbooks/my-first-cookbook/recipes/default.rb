@@ -13,7 +13,7 @@ end
 
 package 'unzip' do
   action :install
-  version 'version 6.0-9ubuntu1.5'
+  version '6.0-9ubuntu1.5'
 end
 
 cookbook_file '/var/www/html/index.html' do
