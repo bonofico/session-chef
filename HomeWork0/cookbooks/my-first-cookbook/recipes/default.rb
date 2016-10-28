@@ -43,7 +43,7 @@ cookbook_file '/var/www/html/images/opsSchool.png' do
 end
 
 cookbook_template '/opt/opsSchool/HomeWork0_template' do
-  source HomeWork0_template.erb
+  source 'HomeWork0_template.erb'
   owner 'www-data'
   group 'www-data'
 end
