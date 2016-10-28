@@ -42,8 +42,8 @@ cookbook_file '/var/www/html/images/opsSchool.png' do
   group 'www-data'
 end
 
-cookbook_file '/opt/opsSchool/HomeWork0_file' do
-  action :create
+cookbook_template '/opt/opsSchool/HomeWork0_template' do
+  source HomeWork0_template.erb
   owner 'www-data'
   group 'www-data'
 end
